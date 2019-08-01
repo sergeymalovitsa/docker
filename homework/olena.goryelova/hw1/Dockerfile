@@ -19,7 +19,4 @@ COPY index.html /www/index.html
 EXPOSE 80
 
 ENTRYPOINT ["rc-service"]
-CMD ["nginx", "stop"]
-
-ENTRYPOINT ["rc-service"]
 CMD ["nginx", "start"]
