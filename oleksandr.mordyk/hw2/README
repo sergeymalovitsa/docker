@@ -1,0 +1,9 @@
+#Home work 2 "Docker in docker"
+
+docker run -v /var/run/docker.sock:/var/run/docker.sock -it $2 bash
+
+Commands:
+./env.sh
+    build name - build docker images;
+    start name - start docker container;
+    clean - clean all containers.
